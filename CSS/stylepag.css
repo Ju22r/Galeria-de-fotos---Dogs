@@ -1,0 +1,54 @@
+body{
+    background-color: #b0c4de; /*cor de toda a pag*/
+    margin: 0px;
+}
+
+header{
+    background-color: #193441;
+    color: aliceblue;
+    height: 50px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+h1{
+    margin: 0px;
+}
+
+.principal{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; /*deixará todas as imagens na horizonatal*/
+    flex-wrap: wrap; /*wrap, coloca o display flex centralizado, centralizar todas as imagens*/
+}
+
+figure{
+    background-color: #fcfff5;
+    width: 300px;
+    margin: 15px auto;
+    border: 10px  solid #b0e0e6;
+    padding: 10px;
+}
+
+img{
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+}
+
+footer{
+    background-color: #193441;
+    color: aliceblue;
+    height: auto;
+    padding: 10px;
+    padding-top: 25px;
+    text-align: center;
+}
